@@ -1,0 +1,1569 @@
+fileFormatVersion: 2
+guid: 83744aba84a5fd54a94e88ba968b1168
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Munchkincards_0
+    21300002: Munchkincards_1
+    21300004: Munchkincards_2
+    21300006: Munchkincards_3
+    21300008: Munchkincards_4
+    21300010: Munchkincards_5
+    21300012: Munchkincards_6
+    21300014: Munchkincards_7
+    21300016: Munchkincards_8
+    21300018: Munchkincards_9
+    21300020: Munchkincards_10
+    21300022: Munchkincards_11
+    21300024: Munchkincards_12
+    21300026: Munchkincards_13
+    21300028: Munchkincards_14
+    21300030: Munchkincards_15
+    21300032: Munchkincards_16
+    21300034: Munchkincards_17
+    21300036: Munchkincards_18
+    21300038: Munchkincards_19
+    21300040: Munchkincards_20
+    21300042: Munchkincards_21
+    21300044: Munchkincards_22
+    21300046: Munchkincards_23
+    21300048: Munchkincards_24
+    21300050: Munchkincards_25
+    21300052: Munchkincards_26
+    21300054: Munchkincards_27
+    21300056: Munchkincards_28
+    21300058: Munchkincards_29
+    21300060: Munchkincards_30
+    21300062: Munchkincards_31
+    21300064: Munchkincards_32
+    21300066: Munchkincards_33
+    21300068: Munchkincards_34
+    21300070: Munchkincards_35
+    21300072: Munchkincards_36
+    21300074: Munchkincards_37
+    21300076: Munchkincards_38
+    21300078: Munchkincards_39
+    21300080: Munchkincards_40
+    21300082: Munchkincards_41
+    21300084: Munchkincards_42
+    21300086: Munchkincards_43
+    21300088: Munchkincards_44
+    21300090: Munchkincards_45
+    21300092: Munchkincards_46
+    21300094: Munchkincards_47
+    21300096: Munchkincards_48
+    21300098: Munchkincards_49
+    21300100: Munchkincards_50
+    21300102: Munchkincards_51
+    21300104: Munchkincards_52
+    21300106: Munchkincards_53
+    21300108: Munchkincards_54
+    21300110: Munchkincards_55
+    21300112: Munchkincards_56
+    21300114: Munchkincards_57
+    21300116: Munchkincards_58
+    21300118: Munchkincards_59
+    21300120: Munchkincards_60
+    21300122: Munchkincards_61
+    21300124: Munchkincards_62
+    21300126: Munchkincards_63
+    21300128: Munchkincards_64
+    21300130: Munchkincards_65
+    21300132: Munchkincards_66
+    21300134: Munchkincards_67
+    21300136: Munchkincards_68
+    21300138: Munchkincards_69
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Munchkincards_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2106
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af91d97da5eb1b4e89dde19dd777f0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 2106
+        width: 245
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc28b197fc06a8047abfc0e552678397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_2
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2106
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872dc9536b833aa479dd5f77e9f2cbe2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_3
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 2106
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c19e187e2f3c5d469ecc254a5adada4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_4
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 2106
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72dc60b3f14c6140ac9f93398813a59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_5
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 2106
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d542fad3d5bdb148ab9956646b38c6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_6
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 2106
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15358f70a33ce1046833e4b974a19c79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_7
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 2106
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1db7eccd10c6574388ebff986d19c2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_8
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 2106
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de329ffd6d871524ab2441f6fd800db0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_9
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 2106
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be836010387bb046a57aeb630725408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1755
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d0cb5e0e803c448b8907e8ec0e5d53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_11
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1755
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caac0c1b3409feb45a8d4b5f81bcf471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_12
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1755
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf31ae2140451974f9b0b1ee6c657aeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_13
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1755
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f7dc5f3e056ac44971f216bbce6fc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_14
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1755
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4536451c1c0c14f45824b4ae94293854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_15
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1755
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7d5cd7ee56ef0449acc6dfc91767d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_16
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1755
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6fca03068781a45ad3ffd2e65b605f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_17
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 1755
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c575ec59125e84eb542266e6f66bee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_18
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1755
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a04dcc596643a4388d7fc96a9745f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_19
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1755
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6bde3f162c6fa43b11d172bea8f129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ab3f1a926700549b6162dcc8d3843b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_21
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1404
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eba9a51d67eb384488b44b8686309bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_22
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1404
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0f1e1ba51d10c40849d116fa233838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_23
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1404
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3402658b8a49547831fdc2f2e069b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_24
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1404
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91737e7729ebd864d9d606bbc2ba6969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_25
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1404
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8dbd3db184b784ca5b72428b26a68d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_26
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1404
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ee3670e5891f14bb3909d7d36b6b11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_27
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 1404
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07f0dec8d252e246bf3c27e9cb0bae5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_28
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1404
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e015c40b068854b85590416400d3ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_29
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1404
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91590466e0bd094fb5cfd7dbf3efac1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1053
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b352a85e6547d747ac52591bd81637b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_31
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1053
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cf175cb8d1911499d13784b1857f99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_32
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1053
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1218355337280e4cbfef60060a1f224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_33
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1053
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b1d0cbe7af2bc478e3b9a5316f11b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_34
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1053
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db0f599e3e475343aa4692a5797ef18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_35
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1053
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dbcd6116bd036438c60787473154f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_36
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1053
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb13a61fe838c5b4a8f750af46d318b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_37
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 1053
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88800e6ab11320c4489fb138f88413aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_38
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1053
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5cd99d5a48369498322d42c46f405b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_39
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1053
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b46b21c2e5fa524f9b43e2dd1eb4964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 702
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8bf8450d3aa5d41af39ab97689f988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_41
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 702
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d02a3d3d2f53e4d90e3e6c72384edd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_42
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 702
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2c0c744f7de43448b5c5a5e04715f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_43
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 702
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d0dd9f627a6a74c8e6b3c968760084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_44
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 702
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50ec4e536f29fc43afc490e9439336d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_45
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 702
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27050fab738af5489d465274664a7ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_46
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 702
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b974e9f3d454d747937da9b92b83175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_47
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 702
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c8e6114cd01a8489c1549bff84e633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_48
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 702
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851bb3ee8d7c6374a9f629650c34c7a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_49
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 702
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdc0ffcff608ac4c90587cd3ae866ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9cf9bcdeee56d4b8837e2eec0d4399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_51
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 351
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49c888eb6ed325449af5e80f1a95246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_52
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 351
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b37b7e311563c47b3e2523b660133a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_53
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 351
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3b3e4bd8b498743b1979e3300d8394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_54
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 351
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcebc23e509b68c48a8d0cc1eb134b53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_55
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 351
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5745dffee3be44f95a49b8726d559b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_56
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 351
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b5eb48762aa8049b83c376f172db53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_57
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 351
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42e98aa784f7af48ba7f91aef0c556d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_58
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 351
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f7333ab11dd5643ab2919016f8cb31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_59
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 351
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9d6500185eb4b44b3d794b7c7393d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a557d6382578a42a6f9c3b9664a33f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_61
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3904abcb76a76e1429ea637c4a8f1775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_62
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d680dd0d7da68174898b532967db76fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_63
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 0
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd47abf15f950144d84cc44aa69d7156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_64
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 0
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7c63bbe4574cb4fb3c0bca34fbcf1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_65
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 0
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345989677db11c84facbf5abbfb94635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_66
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 0
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bff5bed0ab08d04285b6987d2cf99f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_67
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 0
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e266c24289b23347ab95768c9b3f526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_68
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 0
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a681d4f3a1d7947926b4c697d2df98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Munchkincards_69
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 0
+        width: 245.4
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f96ce7e212c5d4198079e04d7307c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d6fa8599d333e2646a5695be99770b38
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

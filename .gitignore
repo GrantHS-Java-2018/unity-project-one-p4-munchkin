@@ -130,3 +130,7 @@ sysinfo.txt
 
 
 # End of https://www.gitignore.io/api/unity,rider
+
+\.idea/\.idea\.unity-project-one-p4-munchkin/\.idea/
+
+\.idea/\.idea\.unity-project-one-p4-munchkin/

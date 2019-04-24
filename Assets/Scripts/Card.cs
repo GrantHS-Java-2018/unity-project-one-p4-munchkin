@@ -1,18 +1,16 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Card : MonoBehaviour
+public abstract class Card : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //[SerializeField] private int test;
+    private string name { get; set; }
+    
+    private string description { get; set; }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
+
 }

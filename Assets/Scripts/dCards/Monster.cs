@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Functions : MonoBehaviour
+public class Monster : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        print("Nathan smells");
+        
     }
 
     // Update is called once per frame

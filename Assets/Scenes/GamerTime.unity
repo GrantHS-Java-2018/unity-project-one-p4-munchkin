@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 185231595}
   - component: {fileID: 185231596}
+  - component: {fileID: 185231597}
   m_Layer: 0
   m_Name: Boots of Running Really Fast
   m_TagString: Untagged
@@ -137,7 +138,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185231594}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.69, y: 5.21, z: 0}
+  m_LocalPosition: {x: 2.15, y: 6.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1589130550}
@@ -191,6 +192,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &185231597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185231594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3eda7212ea65145bf2a013f49ec1e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &321956953
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,6 +249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 325376188}
   - component: {fileID: 325376189}
+  - component: {fileID: 325376190}
   m_Layer: 0
   m_Name: Gazebo
   m_TagString: Untagged
@@ -305,6 +319,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &325376190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325376187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef778044a8ec762408948d49aa285132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &327722270
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,6 +341,7 @@ GameObject:
   m_Component:
   - component: {fileID: 327722271}
   - component: {fileID: 327722272}
+  - component: {fileID: 327722273}
   m_Layer: 0
   m_Name: Stoned Golemn
   m_TagString: Untagged
@@ -384,6 +411,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &327722273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327722270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef778044a8ec762408948d49aa285132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &443078031
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,6 +548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 833766424}
   - component: {fileID: 833766425}
+  - component: {fileID: 833766426}
   m_Layer: 0
   m_Name: Bad-Ass Bandanna
   m_TagString: Untagged
@@ -578,6 +618,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &833766426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833766423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3eda7212ea65145bf2a013f49ec1e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &887245521
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,6 +640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 887245522}
   - component: {fileID: 887245523}
+  - component: {fileID: 887245524}
   m_Layer: 0
   m_Name: Curse! Lose 1 small item
   m_TagString: Untagged
@@ -603,7 +656,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 887245521}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.02, y: -7.14, z: 0}
+  m_LocalPosition: {x: 1.75, y: -6.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1306898344}
@@ -657,6 +710,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &887245524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887245521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c5ecd43ba6ed44d9acd0d39315f97a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &934568119
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,6 +732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 934568120}
   - component: {fileID: 934568121}
+  - component: {fileID: 934568122}
   m_Layer: 0
   m_Name: Flying Nose
   m_TagString: Untagged
@@ -736,6 +802,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &934568122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934568119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef778044a8ec762408948d49aa285132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000364110
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,6 +824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1000364111}
   - component: {fileID: 1000364112}
+  - component: {fileID: 1000364113}
   m_Layer: 0
   m_Name: Broad Sword
   m_TagString: Untagged
@@ -761,7 +840,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000364110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6, y: 5.18, z: 0}
+  m_LocalPosition: {x: 5.73, y: 6.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1589130550}
@@ -815,6 +894,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1000364113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000364110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3eda7212ea65145bf2a013f49ec1e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1087270082
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,6 +916,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1087270083}
   - component: {fileID: 1087270084}
+  - component: {fileID: 1087270085}
   m_Layer: 0
   m_Name: Boots of Butt-Kicking
   m_TagString: Untagged
@@ -894,6 +986,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1087270085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087270082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3eda7212ea65145bf2a013f49ec1e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1102603373
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,6 +1100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1168993727}
   - component: {fileID: 1168993728}
+  - component: {fileID: 1168993729}
   m_Layer: 0
   m_Name: Amazon
   m_TagString: Untagged
@@ -1065,6 +1170,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1168993729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168993726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef778044a8ec762408948d49aa285132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1306898343
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,6 +1227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1421502036}
   - component: {fileID: 1421502037}
+  - component: {fileID: 1421502038}
   m_Layer: 0
   m_Name: Curse!
   m_TagString: Untagged
@@ -1179,6 +1297,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1421502038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421502035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c5ecd43ba6ed44d9acd0d39315f97a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1480603302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,6 +1319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480603303}
   - component: {fileID: 1480603304}
+  - component: {fileID: 1480603305}
   m_Layer: 0
   m_Name: Curse! Chicken on your head
   m_TagString: Untagged
@@ -1258,6 +1389,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1480603305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480603302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c5ecd43ba6ed44d9acd0d39315f97a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1589130549
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,6 +1446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1641256500}
   - component: {fileID: 1641256501}
+  - component: {fileID: 1641256502}
   m_Layer: 0
   m_Name: Curse! Duck of doom
   m_TagString: Untagged
@@ -1372,6 +1516,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1641256502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641256499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c5ecd43ba6ed44d9acd0d39315f97a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1666605000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1493,7 +1649,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1808964945}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8acad0e6c9286c49a9d48e1e5d3807b, type: 3}
+  m_Script: {fileID: 11500000, guid: ef778044a8ec762408948d49aa285132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1847764050
@@ -1598,6 +1754,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1852311994}
   - component: {fileID: 1852311995}
+  - component: {fileID: 1852311996}
   m_Layer: 0
   m_Name: Chainsaw of Bloody Dismemberment
   m_TagString: Untagged
@@ -1667,6 +1824,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1852311996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852311993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3eda7212ea65145bf2a013f49ec1e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2076950112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1677,6 +1846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2076950113}
   - component: {fileID: 2076950114}
+  - component: {fileID: 2076950115}
   m_Layer: 0
   m_Name: Curse! Income tax
   m_TagString: Untagged
@@ -1746,3 +1916,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2076950115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076950112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c5ecd43ba6ed44d9acd0d39315f97a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

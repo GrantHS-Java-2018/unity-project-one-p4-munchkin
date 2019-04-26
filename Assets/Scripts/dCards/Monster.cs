@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Monster : MonoBehaviour
+public class Monster : Card
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private int level { get; }
+    
+    [SerializeField] private int treasures { get; }
 
-    // Update is called once per frame
-    void Update()
+    public void BadStuff()
     {
         
     }
+    
+
+
+
+
+
 }

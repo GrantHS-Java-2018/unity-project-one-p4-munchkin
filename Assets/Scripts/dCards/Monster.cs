@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Monster : Card
+public class Monster : DCard
 {
     [SerializeField] private int level { get; }
     

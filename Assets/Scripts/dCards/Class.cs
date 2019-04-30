@@ -2,9 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Class : Card
+public class Class : DCard
 {
-    //[SerializeField] private 
+    
+    public ClassType playerClass;
+    public enum ClassType
+    {
+        Wizard,
+        Warrior,
+        Theif,
+        Cleric
+    }
     
     
     

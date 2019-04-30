@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Race : MonoBehaviour
+public class Race : DCard
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public RaceType race;
+    public enum RaceType
     {
-        
+      Halfbreed,
+      Elf,
+      Halfling,
+      Dwarf
     }
+    
 }

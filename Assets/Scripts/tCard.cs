@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class tCard : Card
+public abstract class TCard : Card
 {
-   
+   public int type;
+   public int bonus;
+   public int value;
+   public bool big;
 }

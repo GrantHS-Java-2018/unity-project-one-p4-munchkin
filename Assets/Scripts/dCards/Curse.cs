@@ -2,17 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Curse : MonoBehaviour
+public class Curse : DCard
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  
+    [SerializeField] private int curseType { get; }
+    
+    [SerializeField] private int slot { get; }
 }
+
+   

@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class GameLoop : MonoBehaviour
 {
+    private bool loadoutAccess = false;
+    [SerializeField] private GameObject loadoutButton;
+    
+    
+
+  
+    
+    
 
     public enum Stage
     {
-        loadout,
+        Loadout,
         kickdownDoor,
         engageEntity,
         flee,
         fight,
-        deathOrLoot
+        loseOrLoot
                 
     }
 
@@ -20,12 +28,76 @@ public class GameLoop : MonoBehaviour
 
     private void Awake()
     {
-        stage = Stage.loadout;
+        loadoutButton.SetActive(false);
+        stage = Stage.Loadout;
+        stageRun();
 
+    }
+
+    private void stageRun()
+    {
+        switch (stage)
+        {
+            case Stage.Loadout:
+                loadout();
+                break;
+            case Stage.kickdownDoor:
+                kickdownDoor();
+                break;
+            case Stage.engageEntity:
+                engageEntity();
+                break;
+            case Stage.flee:
+                flee();
+                break;
+            case Stage.fight:
+                fight();
+                break;
+            case Stage.loseOrLoot:
+                loseOrLoot();
+                break;
+        }
+    }
+
+    private void loadout()
+    {
+        loadoutAccess = true;
+        loadoutButton.SetActive(true);
+
+
+    }
+
+    private void kickdownDoor()
+    {
+        
+    }
+    
+    private void engageEntity()
+    {
+        
+    }
+    
+    private void flee()
+    {
+        
+    }
+    
+    private void fight()
+    {
+        
+    }
+    
+    private void loseOrLoot()
+    {
+        
     }
 
     private void Update()
     {
-        
+        while (loadoutAccess == true)
+        {
+            
+            
+        }
     }
 }

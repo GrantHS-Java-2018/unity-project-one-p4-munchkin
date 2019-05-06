@@ -7,13 +7,12 @@ public class Button : MonoBehaviour
 {
 
 
-    private void Run()
+
+    public void Doodle()
     {
-        
-        
-        
+        SceneManager.LoadScene("Loadout");
+        //Debug.Log("Clicked ");
     }
-
-
-
+    
+    
 }

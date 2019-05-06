@@ -762,6 +762,7 @@ GameObject:
   m_Component:
   - component: {fileID: 773734231}
   - component: {fileID: 773734232}
+  - component: {fileID: 773734233}
   m_Layer: 0
   m_Name: Elf
   m_TagString: Untagged
@@ -831,6 +832,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &773734233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773734230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543261f9e83e70a429619fd35af5b0da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardName: 
+  cardDescription: 
+  loseLevel: 0
+  usable: 0
+  loseFootgear: 0
+  loseHeadgear: 0
+  race: 1
 --- !u!1 &815043405
 GameObject:
   m_ObjectHideFlags: 0
@@ -2384,7 +2404,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847764050}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.38, y: -6.88, z: -9.91}
+  m_LocalPosition: {x: -2.38, y: -6.97, z: -9.91}
   m_LocalScale: {x: 1.9098039, y: 1.7301601, z: 1}
   m_Children: []
   m_Father: {fileID: 1666605001}

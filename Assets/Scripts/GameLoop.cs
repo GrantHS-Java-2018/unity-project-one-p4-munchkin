@@ -94,10 +94,6 @@ public class GameLoop : MonoBehaviour
 
     private void Update()
     {
-        while (loadoutAccess == true)
-        {
-            
-            
-        }
+        
     }
 }

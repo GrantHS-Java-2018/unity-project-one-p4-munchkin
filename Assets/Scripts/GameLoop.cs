@@ -34,7 +34,7 @@ public class GameLoop : MonoBehaviour
 
     }
 
-    private void stageRun()
+    public void stageRun()
     {
         switch (stage)
         {
@@ -67,9 +67,10 @@ public class GameLoop : MonoBehaviour
 
     }
 
-    private void kickdownDoor()
+    public void kickdownDoor()
     {
-        
+        loadoutButton.SetActive(false);
+        Debug.Log("Worked");
     }
     
     private void engageEntity()

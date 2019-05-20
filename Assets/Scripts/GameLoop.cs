@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameLoop : MonoBehaviour
 {
+    //Deck Reference:
+    
+    
     private bool loadoutAccess = false;
     [SerializeField] private GameObject loadoutButton;
     
@@ -70,10 +74,10 @@ public class GameLoop : MonoBehaviour
     public void kickdownDoor()
     {
         loadoutButton.SetActive(false);
-        Debug.Log("Worked");
+        GameObject.Find("Deck").GetComponent<Deck>().draw();
     }
     
-    private void engageEntity()
+    private void engageEntity(Card entity)
     {
         
     }

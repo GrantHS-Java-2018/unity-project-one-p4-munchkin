@@ -8,5 +8,18 @@ public abstract class DCard : Card
    public bool usable;
    public bool loseFootgear;
    public bool loseHeadgear;
+
+
+   public void Consturctor()
+   {
+     
+   }
+   
+   public virtual bool engage()
+   {
+        
+
+    
+   }
    
 }

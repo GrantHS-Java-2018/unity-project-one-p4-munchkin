@@ -49,7 +49,7 @@ public class GameLoop : MonoBehaviour
                 kickdownDoor();
                 break;
             case Stage.engageEntity:
-                engageEntity();
+                //engageEntity();
                 break;
             case Stage.flee:
                 flee();
@@ -77,9 +77,9 @@ public class GameLoop : MonoBehaviour
         GameObject.Find("Deck").GetComponent<Deck>().draw();
     }
     
-    private void engageEntity(Card entity)
+    public void engageEntity(Sprite entity)
     {
-        
+        GameObject.Find("Deck").GetComponent<Image>().overrideSprite = entity;
     }
     
     private void flee()

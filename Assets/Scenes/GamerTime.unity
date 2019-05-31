@@ -2026,7 +2026,7 @@ SpriteRenderer:
   m_Size: {x: 2.454, y: 3.5100002}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1306898343
@@ -2428,8 +2428,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -401.5, y: -40.7}
-  m_SizeDelta: {x: 67, y: 68.6}
+  m_AnchoredPosition: {x: -399.9, y: -1.93}
+  m_SizeDelta: {x: 145.69, y: 242}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1518677979
 MonoBehaviour:

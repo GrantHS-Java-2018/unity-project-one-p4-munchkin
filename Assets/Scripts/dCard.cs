@@ -9,13 +9,4 @@ public abstract class DCard : Card
    public bool loseFootgear;
    public bool loseHeadgear;
    
-
-
-   public void Consturctor()
-   {
-     
-   }
-   
-   
-   
 }

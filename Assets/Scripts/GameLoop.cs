@@ -1,13 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GameLoop : MonoBehaviour
 {
-    //Deck Reference:
-    
-    
     private bool loadoutAccess = false;
     [SerializeField] private GameObject loadoutButton;
     
@@ -38,7 +34,7 @@ public class GameLoop : MonoBehaviour
 
     }
 
-    public void stageRun()
+    private void stageRun()
     {
         switch (stage)
         {
@@ -49,7 +45,7 @@ public class GameLoop : MonoBehaviour
                 kickdownDoor();
                 break;
             case Stage.engageEntity:
-                //engageEntity();
+                engageEntity();
                 break;
             case Stage.flee:
                 flee();
@@ -71,15 +67,14 @@ public class GameLoop : MonoBehaviour
 
     }
 
-    public void kickdownDoor()
+    private void kickdownDoor()
     {
-        loadoutButton.SetActive(false);
-        GameObject.Find("Deck").GetComponent<Deck>().draw();
+        
     }
     
-    public void engageEntity(Sprite entity)
+    private void engageEntity()
     {
-        GameObject.Find("Deck").GetComponent<Image>().overrideSprite = entity;
+        
     }
     
     private void flee()

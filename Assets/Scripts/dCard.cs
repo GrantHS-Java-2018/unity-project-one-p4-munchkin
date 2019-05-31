@@ -8,6 +8,7 @@ public abstract class DCard : Card
    public bool usable;
    public bool loseFootgear;
    public bool loseHeadgear;
+   
 
 
    public void Consturctor()
@@ -15,11 +16,6 @@ public abstract class DCard : Card
      
    }
    
-   public virtual bool engage()
-   {
-        
-
-    
-   }
+   
    
 }

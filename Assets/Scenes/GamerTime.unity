@@ -345,6 +345,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -492,6 +494,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
 --- !u!1 &321956953
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,6 +625,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -719,6 +725,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -804,6 +812,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -1135,6 +1145,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -1186,6 +1198,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -1333,6 +1347,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
 --- !u!1 &887245521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,6 +1443,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -1525,6 +1543,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -1623,6 +1643,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
 --- !u!1 &1087270082
 GameObject:
   m_ObjectHideFlags: 0
@@ -1717,6 +1739,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
 --- !u!1 &1150934977
 GameObject:
   m_ObjectHideFlags: 0
@@ -1892,6 +1916,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -1976,6 +2002,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -2144,6 +2172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -2291,6 +2321,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -2389,6 +2421,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -2480,7 +2514,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2831ecbbd0ecd2245b8c799f09981bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardDeck: []
   allSprites: []
+  cardPrefab: {fileID: 0}
 --- !u!1 &1589130549
 GameObject:
   m_ObjectHideFlags: 0
@@ -2727,6 +2763,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -2825,6 +2863,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -2923,6 +2963,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
 --- !u!1 &1855690009
 GameObject:
   m_ObjectHideFlags: 0
@@ -2969,6 +3011,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -3068,6 +3112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0
@@ -3422,6 +3468,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardName: 
   cardDescription: 
+  cardIdentity: 0
+  sprite: {fileID: 0}
   loseLevel: 0
   usable: 0
   loseFootgear: 0

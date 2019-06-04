@@ -4,15 +4,29 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private int levelRaw;
+    private int level;
+    private int gold;
+    private GameObject handOne;
+    private GameObject handTwo;
+    private GameObject headGear;
+    private GameObject armor;
+    private GameObject footGear;
+    private bool big = false;
+    
+    
+
+    public enum Class
     {
-        
+        Thief,
+        Cleric,
+        Warrior,
+        Wizard
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void Awake()
     {
-        
+        throw new System.NotImplementedException();
     }
 }

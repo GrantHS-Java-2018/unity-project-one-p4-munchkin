@@ -15,14 +15,13 @@ public class Deck : MonoBehaviour
         cardDeck = new Card[94];
         allSprites = Resources.LoadAll<Sprite>("DoorCardSprites");
         cardPrefab = Resources.Load<GameObject>("Prefabs/Card");
-        Debug.Log(allSprites.Length);
+        //Debug.Log(allSprites.Length);
         for (int i = 0; i < 89; i++)
-           
         {
-            cardDeck[i] = new Card();
-            cardDeck[i].sprite = allSprites[i];
-            Debug.Log(i);
-        } 
+            Instantiate(cardPrefab);
+        }
+           
+        
         
 
     }

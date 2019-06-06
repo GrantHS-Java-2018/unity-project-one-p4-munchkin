@@ -142,6 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadoutButton: {fileID: 124249800}
+  drawCard: 0
   stage: 0
 --- !u!4 &74349503
 Transform:
@@ -1549,6 +1550,49 @@ MonoBehaviour:
   usable: 0
   loseFootgear: 0
   loseHeadgear: 0
+--- !u!1 &994677817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 994677819}
+  - component: {fileID: 994677818}
+  m_Layer: 0
+  m_Name: Libraries
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &994677818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994677817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d133701d8338f343b87c773954344bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &994677819
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994677817}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -194.79771, y: 256.7353, z: -4.9335003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1000364110
 GameObject:
   m_ObjectHideFlags: 0
@@ -2898,6 +2942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18e15cd558b00c84983ee7e9b3abbcff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerClass: 0
 --- !u!4 &1844146552
 Transform:
   m_ObjectHideFlags: 0

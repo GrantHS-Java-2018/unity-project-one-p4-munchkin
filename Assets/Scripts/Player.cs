@@ -4,8 +4,22 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private int levelRaw;
-    private int level;
+    public enum PlayerClass
+        {
+            Thief,
+            Cleric,
+            Warrior,
+            Wizard
+        }
+
+    public enum Sex
+    {
+        Male,
+        Female
+    }
+    
+    public int levelRaw;
+    public int level;
     private int gold;
     private GameObject handOne;
     private GameObject handTwo;
@@ -13,20 +27,17 @@ public class Player : MonoBehaviour
     private GameObject armor;
     private GameObject footGear;
     private bool big = false;
-    
+    public PlayerClass playerClass;
+    public Sex playerSex;
     
 
-    public enum Class
-    {
-        Thief,
-        Cleric,
-        Warrior,
-        Wizard
-    }
+    
+    
+    
 
 
     private void Awake()
     {
-        throw new System.NotImplementedException();
+        
     }
 }

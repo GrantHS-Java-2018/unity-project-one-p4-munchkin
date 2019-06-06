@@ -10,6 +10,7 @@ public class GameLoop : MonoBehaviour
     
     private bool loadoutAccess = false;
     [SerializeField] private GameObject loadoutButton;
+    public bool drawCard = false;
     
     
 
@@ -32,6 +33,7 @@ public class GameLoop : MonoBehaviour
 
     private void Awake()
     {
+        drawCard = false;
         loadoutButton.SetActive(false);
         stage = Stage.Loadout;
         stageRun();
@@ -67,19 +69,29 @@ public class GameLoop : MonoBehaviour
     {
         loadoutAccess = true;
         loadoutButton.SetActive(true);
+        drawCard = true;
 
 
     }
 
     public void kickdownDoor()
     {
-        loadoutButton.SetActive(false);
-        GameObject.Find("Deck").GetComponent<Deck>().draw();
+//disable loadout and draw card
+        if (drawCard == true)
+        {
+          loadoutButton.SetActive(false);
+          GameObject.Find("Deck").GetComponent<Deck>().draw();
+          drawCard = false;
+        }
+        
+        
     }
     
-    public void engageEntity(Sprite entity)
+    public void engageEntity(GameObject drawnCard)
     {
-        GameObject.Find("Deck").GetComponent<Image>().overrideSprite = entity;
+        GameObject.Find("Deck").GetComponent<Image>().overrideSprite = drawnCard.GetComponent<Card>().sprite;
+        GameObject.Find("Libraries").GetComponent<Libraries>().engage();
+        GameObject.Find("Deck").GetComponent<Deck>().topCard++;
     }
     
     private void flee()

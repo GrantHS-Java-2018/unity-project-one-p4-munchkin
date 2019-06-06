@@ -7,12 +7,14 @@ public class Deck : MonoBehaviour
     public GameObject[] cardDeck;
     public Sprite[] allSprites;
     public GameObject cardPrefab;
-    private GameObject mediumObj;
-    private int topCard = 0;
+    public GameObject mediumObj;
+    public int topCard;
+   
     
     
     void Awake()
-    {    
+    {
+        topCard = 0;
         //Get the sliced card images as an array of 52 sprites
         cardDeck = new GameObject[94];
         allSprites = Resources.LoadAll<Sprite>("DoorCardSprites");
@@ -27,7 +29,7 @@ public class Deck : MonoBehaviour
             mediumObj.GetComponent<Card>().sprite = allSprites[i];
             cardDeck[i] = mediumObj;
         }
-
+//shuffle deck
         for (int i = 0; i < 89; i++)
         {
             int ran = Random.Range(0, 88);
@@ -52,8 +54,8 @@ public class Deck : MonoBehaviour
         //int i = Random.Range(0, 80);
        
         GameObject.Find("Core").GetComponent<GameLoop>().stage = GameLoop.Stage.engageEntity;
-        GameObject.Find("Core").GetComponent<GameLoop>().engageEntity(cardDeck[topCard].GetComponent<Card>().sprite);
-        topCard++;
+        GameObject.Find("Core").GetComponent<GameLoop>().engageEntity(cardDeck[topCard]);
+        //topCard++;
 
 
     }

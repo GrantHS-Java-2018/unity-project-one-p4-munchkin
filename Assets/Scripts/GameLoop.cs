@@ -11,6 +11,8 @@ public class GameLoop : MonoBehaviour
     private bool loadoutAccess = false;
     [SerializeField] private GameObject loadoutButton;
     public bool drawCard = false;
+    [SerializeField] private GameObject fleeButton;
+    [SerializeField] private GameObject fightButton;
     
     
 
@@ -33,11 +35,22 @@ public class GameLoop : MonoBehaviour
 
     private void Awake()
     {
+    
+       
+        
         drawCard = false;
         loadoutButton.SetActive(false);
+        fleeButton.SetActive(false);
+        fightButton.SetActive(false);
         stage = Stage.Loadout;
-        stageRun();
+        
 
+    }
+
+    private void Start()
+    {
+        GameObject.Find("Deck").GetComponent<Deck>().treasureDraw(2);
+        stageRun();
     }
 
     public void stageRun()
@@ -92,9 +105,14 @@ public class GameLoop : MonoBehaviour
         GameObject.Find("Deck").GetComponent<Image>().overrideSprite = drawnCard.GetComponent<Card>().sprite;
         GameObject.Find("Libraries").GetComponent<Libraries>().engage();
         GameObject.Find("Deck").GetComponent<Deck>().topCard++;
+        fleeButton.SetActive(true);
+        fightButton.SetActive(true);
+        
+        
+        
     }
     
-    private void flee()
+    public void flee()
     {
         
     }

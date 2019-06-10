@@ -1,14 +1,24 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class Deck : MonoBehaviour
 {
+    //door deck
     public GameObject[] cardDeck;
     public Sprite[] allSprites;
     public GameObject cardPrefab;
     public GameObject mediumObj;
     public int topCard;
+    
+    //treasure deck
+    public GameObject[] treasureDeck;
+    public Sprite[] treasureSprites;
+    public GameObject treasureMed;
+    public int treasureTopCard;
    
     
     
@@ -30,19 +40,50 @@ public class Deck : MonoBehaviour
             cardDeck[i] = mediumObj;
         }
 //shuffle deck
-        for (int i = 0; i < 89; i++)
+        for (int i = 0; i < 80; i++)
         {
-            int ran = Random.Range(0, 88);
+            int ran = Random.Range(0, 79);
             mediumObj = cardDeck[ran];
             cardDeck[ran] = cardDeck[i];
             cardDeck[i] = mediumObj;
 
 
         }
-           
-        
-      
 
+        setupTreasureDeck();
+        shuffleTreasureDeck();
+        
+
+
+
+
+    }
+
+    public void setupTreasureDeck()
+    {
+        treasureDeck = new GameObject[94];
+        treasureTopCard = 0;
+        treasureSprites = Resources.LoadAll<Sprite>("TreasureCardSprites");
+
+        for (int i = 0; i < 70; i++)
+        {
+            treasureMed = Instantiate(cardPrefab);
+            treasureMed.name = "TreasureCard" + i;
+            treasureMed.GetComponent<Card>().sprite = treasureSprites[i];
+        }
+        
+    }
+
+    public void shuffleTreasureDeck()
+    {
+        for (int i = 0; i < 80; i++)
+        {
+            int ran = Random.Range(0, 79);
+            treasureMed = treasureDeck[i];
+            treasureDeck[i] = treasureDeck[ran];
+            treasureDeck[ran] = treasureMed;
+        }
+        
     }
 
 
@@ -60,13 +101,22 @@ public class Deck : MonoBehaviour
 
     }
 
-    public void assignDeck()
+    public void treasureDraw(int num)
     {
-        
+        for (int i = 0; i < num; i++)
+        {
+            var cardName = "TreasureCard" + i;
+            GameObject.Find(cardName).GetComponent<Image>().overrideSprite =
+                treasureDeck[treasureTopCard].GetComponent<Card>().sprite;
+
+            treasureTopCard++;
+
+
+
+        }
         
         
         
     }
-
    
 }

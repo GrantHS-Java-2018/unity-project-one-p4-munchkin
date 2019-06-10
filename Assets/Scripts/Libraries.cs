@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Libraries : MonoBehaviour
 {
-  Player player = GameObject.Find("Player").GetComponent<Player>();
+  private Player player;
   private GameObject[] rObject;
   private int bruh;
   private int referenceNumber;
@@ -14,12 +14,14 @@ public class Libraries : MonoBehaviour
   
 
 //card identity int
-  private void Awake()
+    
+
+    private void Start()
   {
+      player = GameObject.Find("Player").GetComponent<Player>();
       rObject = GameObject.Find("Deck").GetComponent<Deck>().cardDeck;
       bruh = GameObject.Find("Deck").GetComponent<Deck>().topCard;
       referenceNumber = rObject[bruh].GetComponent<Card>().cardIdentity;
-
   }
 
 
@@ -128,6 +130,22 @@ public class Libraries : MonoBehaviour
           return true;
       }
   }
+  
+  //flee method
+  public bool flee()
+  {
+      bool returnValue = false;
+
+
+      return returnValue;
+  }
+  
+  //flee bools
+  
+  
+  
+  
+  
 
   
 }
